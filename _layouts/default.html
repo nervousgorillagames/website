@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+{% include head.html %}
+
+<body>
+<a href="/"><img id="banner" src="/assets/logo_1080p.png" alt="Nervous Gorilla Games"/></a>
+<main class="page-content" aria-label="Content">
+
+    <div id="container">
+
+        {{ content }}
+        {% include footer.html %}
+
+        {% include legal.html %}
+    </div>
+
+</body>
+</html>
